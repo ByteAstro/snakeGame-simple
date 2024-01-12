@@ -50,7 +50,7 @@ function gameEngine() {
     snakeArr[0].x += inputDir.x;
     snakeArr[0].y += inputDir.y;
 
-    /* Part 2: */
+    /* Part 2: ---------------------------------- */
     // Dispaly the snake
     board.innerHTML = "";
     snakeArr.forEach((e, index) => {
